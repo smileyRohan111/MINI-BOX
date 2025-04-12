@@ -1,0 +1,119 @@
+.head-container{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    column-gap: 50rem;
+}
+.container{
+    margin-top: 10px;
+}
+
+.light-theme .theme{
+    height: 40px;
+    width: 110px;
+    border-radius: 30px;
+    background-color: rgb(0, 48, 124);
+    margin: 5px;
+    /* color: white; */
+}
+
+.head-container{
+    font-size: 30px;
+    padding-top: 0.9rem;
+}
+.head-container .text{
+    font-size: 30px;
+    padding-bottom: 1rem;
+    
+}
+.section-logo {
+    position: absolute;
+    margin-left: 900px;
+    margin-top: 100px;
+    image-rendering: optimizeQuality;
+}
+.section-text{
+    height: 300px;
+    width: 600px;
+    /* background-color: green; */
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 150px;
+}
+.main{
+    position: relative;
+    margin-top: 550px;
+}
+.main h1{
+    text-align: center;
+    font-size: 50px;
+}
+.section-text h1{
+    font-size: 50px;
+}
+.section-text h1 span{
+    color: rgb(227, 227, 7);
+}
+
+.color-animate {
+    display: inline-block;
+    font-weight: bold;
+    animation: colorCycle 4s linear infinite;
+  }
+  
+  @keyframes colorCycle {
+    0%   { color: #ff0000; }   /* Red */
+    25%  { color: #ffa500; }   /* Orange */
+    50%  { color: #117811; }   /* Green */
+    75%  { color: #00ffff; }   /* Cyan */
+    100% { color: #ff0000; }   /* Back to Red */
+  }
+  
+.section-text .Register{
+    height: 40px;
+    width: 110px;
+    border-radius: 30px;
+    background-color: rgb(0, 48, 124);
+    margin: 5px;
+    color: white;
+}
+.section-text .About{
+    height: 40px;
+    width: 110px;
+    border-radius: 30px;
+    background-color:rgb(0, 0, 0);
+    margin: 5px;
+    color: white;
+}
+.navigation .list a{
+    color: gray;
+}
+.head-container .text{
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+body.light-theme {
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
+  body.dark-theme {
+    background-color: #121212;
+    color: #f5f5f5;
+  }
+  
+  .theme {
+    position: fixed;
+    top: 1rem;
+    right: 15rem;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+  }
+  
